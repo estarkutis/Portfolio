@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=The+Nautigal&display=swap");
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.fonas {
+  background-image: url("Nuotraukos/Fonas.jpg");
+  position: absolute;
+  height: 850px;
+  width: 1800px;
+  top: 50px;
+}
+
+.antfono {
+  position: absolute;
+  height: 120px;
+  width: 700px;
+  bottom: 500px;
+  left: 580px;
+  text-align: center;
+  font-size: 60px;
+}
+.antfono2 {
+  position: absolute;
+  height: 120px;
+  width: 700px;
+  bottom: 310px;
+  left: 580px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.buttons {
+  position: absolute;
+  height: 120px;
+  width: 700px;
+  bottom: 250px;
+  left: 580px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+  font-family: "The Nautigal", cursive;
+}
+a {
+  text-decoration: none;
+}
