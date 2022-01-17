@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=The+Nautigal&display=swap");
 
 body {
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +9,12 @@ body {
   position: relative;
 }
 .fonas {
-  background-image: url("Nuotraukos/Fonas.jpg");
+  background-image: url("Nuotraukos/Capture.jpeg");
   position: absolute;
   height: 850px;
   width: 1800px;
-  top: 50px;
+  top: 30px;
+  box-shadow: 5px 5px 5px;
 }
 
 .antfono {
@@ -21,16 +22,19 @@ body {
   height: 120px;
   width: 700px;
   bottom: 500px;
-  left: 580px;
+  left: 550px;
   text-align: center;
   font-size: 60px;
+  text-shadow: 0px 1px 1px rgba(255, 255, 2555, 0.75),
+    0px -1px 1px rgba(0, 0, 0, 0.75);
+  color: #222;
 }
 .antfono2 {
   position: absolute;
   height: 120px;
   width: 700px;
   bottom: 310px;
-  left: 580px;
+  left: 550px;
   text-align: center;
   font-size: 15px;
   font-family: "Open Sans Condensed", sans-serif;
@@ -40,7 +44,7 @@ body {
   height: 120px;
   width: 700px;
   bottom: 250px;
-  left: 580px;
+  left: 550px;
   text-align: center;
   font-size: 15px;
   font-family: "Open Sans Condensed", sans-serif;
@@ -50,4 +54,54 @@ h1 {
 }
 a {
   text-decoration: none;
+}
+.aprasymas {
+  background-color: white;
+  position: absolute;
+  height: 850px;
+  width: 1800px;
+  top: 1000px;
+}
+.nuotrauka {
+  position: relative;
+  top: 150px;
+  left: 300px;
+  height: 500px;
+
+  overflow: hidden;
+}
+img {
+  height: 500px;
+}
+h6 {
+  color: black;
+  font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+p {
+  color: black;
+  font-size: 25px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.tekstas {
+  background-color: white;
+  position: relative;
+  bottom: 350px;
+  left: 800px;
+  height: 500px;
+  width: 800px;
+}
+.darbai {
+  background-color: white;
+  position: absolute;
+  height: 850px;
+  width: 1800px;
+  top: 2000px;
+}
+.kontaktai {
+  background-color: white;
+  position: absolute;
+  height: 850px;
+  width: 1800px;
+  top: 3000px;
 }
