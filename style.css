@@ -9,7 +9,7 @@ body {
   position: relative;
 }
 .fonas {
-  background-image: url("Nuotraukos/Capture.jpeg");
+  background-image: url("Nuotraukos/Fonaspilnas.jpg");
   position: absolute;
   height: 850px;
   width: 1800px;
@@ -54,7 +54,9 @@ h1 {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
+
 .aprasymas {
   background-color: white;
   position: absolute;
@@ -92,12 +94,23 @@ p {
   width: 800px;
 }
 .darbai {
-  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: black;
   position: absolute;
   height: 850px;
   width: 1800px;
   top: 2000px;
 }
+.darbu-square {
+  background-color: blue;
+  width: 360px;
+  height: 360px;
+  margin: 5px;
+}
+
 .kontaktai {
   background-color: white;
   position: absolute;
