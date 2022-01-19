@@ -108,13 +108,23 @@ p {
   background-color: blue;
   width: 360px;
   height: 360px;
-  margin: 5px;
+  margin: 15px;
 }
 
 .kontaktai {
-  background-color: white;
+  background-color: black;
   position: absolute;
-  height: 850px;
-  width: 1800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 1950px;
   top: 3000px;
+}
+
+.logotipai {
+  background-color: blue;
+  position: relative;
+  height: 50px;
+  width: 300px;
 }

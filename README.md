@@ -3,7 +3,7 @@ Portfolio puslapis.
 Problemos:
 
 1. Sudėliojimas HTML dokumento:
-   Darbų skiltis
+   Darbų skiltis (ar atskirai nuorodas į tinklalapi padaryti ar nuotraukas pasidaryti)
    kontaktų skiltis
 2. Sukurimas ir sudėliojimas css failo:
    Darbų skiltis
